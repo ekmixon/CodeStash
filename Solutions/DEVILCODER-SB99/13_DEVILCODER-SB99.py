@@ -15,7 +15,7 @@ for k in a:
         c[0] = c[0].replace('->','.')
         a[i] = ""
         for s in c:
-            a[i]=a[i]+ "//"+s
+            a[i] = f"{a[i]}//{s}"
         a[i] = a[i][2:]
     i = i+1
-print '\n'.join(a)
+import sys

@@ -1,15 +1,15 @@
 t=int(input())
-for i in range(0,t):
+for _ in range(t):
     r,c=[int(x) for x in input().split()]
     total=r*c
     arr=[0]*total
     count=0
-    for j in range(0,r):
+    for _ in range(r):
         lst=[int(x) for x in input().split()]
-        for i in range(0,len(lst)):
-            arr[count]=lst[i]
+        for item in lst:
+            arr[count] = item
             count=count+1
     l=len(arr)
     arr.sort()
-    print(arr[int(l/2)])
+    print(arr[l // 2])
     

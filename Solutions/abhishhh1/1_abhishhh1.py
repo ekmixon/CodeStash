@@ -1,4 +1,4 @@
-for i in range(int(input())):
+for _ in range(int(input())):
 	l=[int(x) for x in input().split()]
 	for j in range(1,l[2]+1):
 		if j%2==0:

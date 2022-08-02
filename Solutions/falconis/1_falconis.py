@@ -1,6 +1,5 @@
 t = int(input())
-a = 0
-while a < t:
+for _ in range(t):
     x, y, p = map(int,input().split(" "))
     b = 1
     while b <= p:
@@ -11,5 +10,4 @@ while a < t:
         b += 1
     ma = max(x,y)
     mi = min(x,y)
-    print(int(ma/mi)) 
-    a = a + 1
+    print(int(ma/mi))

@@ -1,5 +1,5 @@
 t=int(input())
-while t>0 :
+while t>0:
 	x,y,p=map(int,input().split())
 	while p>0:
 		if p%2==0 :
@@ -11,4 +11,4 @@ while t>0 :
 	minm=min(x,y)
 	ans=int(maxm/minm)
 	print(ans)
-	t=t-1
+	t -= 1
